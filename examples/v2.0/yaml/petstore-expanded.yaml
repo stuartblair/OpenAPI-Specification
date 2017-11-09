@@ -120,7 +120,8 @@ definitions:
 
   NewPet:
     required:
-      - name  
+      - name
+      - tag
     properties:
       name:
         type: string
