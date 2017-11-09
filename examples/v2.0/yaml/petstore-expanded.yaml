@@ -126,7 +126,10 @@ definitions:
       name:
         type: string
       tag:
-        type: string    
+        type: string
+      age:
+        type: integer
+        format: int32
 
   Error:
     required:
